@@ -9,8 +9,10 @@ declare global {
   const Activity: typeof import('react').Activity
   const Fragment: typeof import('react').Fragment
   const Link: typeof import('react-router-dom').Link
+  const MasterLayout: typeof import('../shared/components').MasterLayout
   const NavLink: typeof import('react-router-dom').NavLink
   const Outlet: typeof import('react-router-dom').Outlet
+  const PreLoader: typeof import('../shared/components').PreLoader
   const RouterProvider: typeof import('react-router-dom').RouterProvider
   const StrictMode: typeof import('react').StrictMode
   const Suspense: typeof import('react').Suspense
@@ -26,6 +28,8 @@ declare global {
   const forwardRef: typeof import('react').forwardRef
   const keyframes: typeof import('styled-components').keyframes
   const lazy: typeof import('react').lazy
+  const lazyload: typeof import('../shared/components').lazyload
+  const lazyloadWithLoader: typeof import('../shared/components').lazyloadWithLoader
   const memo: typeof import('react').memo
   const startTransition: typeof import('react').startTransition
   const styled: typeof import('styled-components').default
